@@ -1,0 +1,15 @@
+export const KOMPLETT_BASE_URL = 'https://www.komplett.no';
+export const KOMPLETT_CLUB_PRODUCT_PAGE_URL = `${KOMPLETT_BASE_URL}/kampanje/komplett-club-tilbud`;
+export const USER_AGENT='Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36';
+export const PRODUCT_DISCOUNT_THRESHOLD_PRICE = 1000;
+export const PRODUCT_DISCOUNT_THRESHOLD_PERCENT = 15;
+export const NOTIFICATION_TO_EMAIL = 'robsat91@gmail.com';
+export const NOTIFICATION_FROM_EMAIL = 'banko@ichiva.no';
+//export const NOTIFICATION_CHANNELS = ['email', 'push'];
+export const NOTIFICATION_CHANNELS = ['push'];
+export const VERBOSE_LOGGING = true;
+export const CRAWLER_DELAY_BETWEEN_PRODUCTS = 2500;
+export const CRAWLER_MAX_CONCURRENT=10;
+export const FINN_AD_CREATION_URL='https://www.finn.no/create-item/start';
+export const SCHIBSTED_COOKIE_FRAME_URL='https://cmp.';
+export const PRISJAKT_BASE_URL='https://www.prisjakt.no';
